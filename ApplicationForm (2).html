@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="us-en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UZ Undergraduate Application Form</title>
+	<style type="text/css">
+		body{
+			background-color: whitesmoke;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<center>
+			<h1>2023 UZ UNDERGRADUATE APPLICATION FORM</h1>
+			<img src="images/uzlogo.png" alt="UZ">
+			<font color="purple"><b><p><em>Note (<font color="red">*</font>) indicates fields that cannot be left blank</em></p></font></b>
+		</center>
+
+		<fieldset>
+		<legend><font color="blue"><b>FILL IN YOUR PERSONAL DETAILS</b></font></legend>
+
+			<label for="IntakeAppliedFor">Intake Applied For</label>
+			  <select name="intakeId" >
+					<option  >--Please Select--</option>
+					<option >February</option>
+					<option >August</option>
+				</select><br><br>		
+			<label for="ApplicationYear">Application Year</label>
+				<div class="input select">
+					<label for="ApplicationYear"><font color="red">*</font></label>
+						<select name="applicationYear">
+							<option>2023</option>
+						</select>
+				</div><br>		
+			<label for="ApplicationType">Application Type</label><br>
+			<div class="input select required">
+				<label for="ApplicationTypeId"><font color="red">*</font></label>
+					<select name="applicationType">
+						<option selected="selected"disabled>--Please Select--</option>
+						<option >Normal Entry</option>
+						<option >Special Entry</option>
+						<option >Mature Entry</option>
+					</select>
+			</div><br>
+			<label for="ApplicantType">Applicant Type</label><br>
+			<div class="input select required">
+				<label for="ApplicantType"><font color="red">*</font></label>
+					<select name="applicantType">
+						<option >--Please Select--</option>
+						<option >LOCAL</option>
+						<option >SADC</option>
+						<option >INTERNATIONAL</option>
+					</select>
+			</div><br>
+			<label for="Surname">Surname</label>
+			<div class="input text required"><br>
+				<label for="Surname"><font color="red">*</font> </label>
+				<input name="surname" size="60" maxlength="255" type="text" >
+			</div><br>
+				<label for="Firstname">First Name</label>
+				<div class="input text required"><br>
+					<label for="Firstname"><font color="red">*</font></label>
+					<input name="firstname" size="60" maxlength="255" type="text">
+				</div><br>		
+				<label for="BirthDate">Birth Date <b><font color="green">#Birth Date Format: Month-Day-Year</font></em></label><b>
+				<div class="input text"><br>
+					<label for="BirthDate"><font color="red">*</font></label>
+					<input name="birth_date" size="60" maxlength="255" type="text" >
+				</div><br><br>		
+				<label for="Title">Title</label><br>
+				<div class="input select required">
+					<label for="Title"><font color="red">*</font></label>
+					<select name="title">
+						<option >Please Select</option>
+						<option >Mr</option>
+						<option >Mrs</option>
+						<option >Sr</option>
+						<option >Miss</option>
+						<option >Sr</option>
+					</select>
+				</div><br>
+				<label for="Gender">Gender</label>
+				<div class="input select required"><br>
+					<label for="Gender"><font color="red">*</font></label>
+					<select name="gender">
+						<option >Please Select</option>
+						<option >Female</option>
+						<option >Male</option>
+					</select>
+				</div><br>
+				<label for="MaritalStatus">Marital Status</label>
+				<div class="input select required"><br>
+					<label for="MaritialStatus"></label>
+					<select name="maritialStatus">
+						<option >Please Select</option>
+						<option >Single</option>
+						<option >Married</option>
+					</select>
+				</div><br>
+			<label for="City Of Birth">City Of Birth</label>
+			<div class="input select required">
+			<label for="PlaceOfBirth"><font color="red">*</font></label>
+			<select name="placeOfBirth">
+				<option >--Please Select--</option>
+				<option >Other</option>
+				<option >Alaska</option>
+				<option >Banket</option>
+				<option >Chegutu</option>
+				<option >Dangamvura</option>
+				<option >Gweru</option>
+				<option >Chipangayi</option>
+				<option >Harare</option>
+				<option >Kweke</option>
+				<option >Marondera</option>
+				<option >Rusape</option>
+				<option >Zvimba</option>
+			</select>
+		</div><br>
+			<label for="OtherPlaceOfBirth">Other Place Of Birth</label><font color="green"> (Leave blank if N/A)</font>
+			<div class="input text"><br><input name="[other_place_of_birth]" type="text" ></div><br>		
+			*<u><i>NB</i></u>: Foreign students may provide passport numbers in place of ID numbers</b><br><br>
+			<b><font color="green">#National ID Format: 56-3115524R38 (No spaces)</font></em><br><br>
+				<label for="IDNumber">National ID</label><b><font color="green">(Leave blank if N/A)</font></b>
+			<div class="input text"><br>
+				<label for="IdNumber"></label>
+				<input name="id_number" size="60" maxlength="255" type="text" >
+			</div><br><br>
+			<label for="PassportNumber">Passport Number</label>
+			<b><font color="green">(Leave blank if N/A)</font></b>
+			<div class="input text"><br>
+				<label for="PassportNumber"></label>
+				<input name="[passport_number]" size="60" maxlength="255" type="text" >
+			</div><br>
+			<div class="input select required"><br>
+				<label for="Race">Race</label>
+				<select name="[race]" class="race" >
+					<option >Please Select</option>
+					<option >Asian</option>
+					<option >Black</option>
+					<option >White</option>
+				</select>
+			</div><br>
+			<label for="Religion">Religion</label>
+			<div class="input text required"><br>
+				<label for="Religion"><font color="red">*</font></label>
+				<input name="[religion]" size="60" maxlength="255" type="text" >
+			</div><br>
+			<div class="input select required">
+				<label for="Nationality">Country of Origin<font color="red">*</font></label>
+				<select name="[nationality]" class="nationality" >
+					<option >Please Select</option>
+					<option >Afghanistan</option>
+					<option >Albania</option>
+					<option >Algeria</option>
+					<option >America</option>
+					<option >North Sudan</option>
+					<option >South Sudan</option>
+					<option >Northern Ireland</option>
+					<option >Norway</option>
+					<option >Zimbabwe</option>
+				</select><br><br>		
+				<label for="Disability<fontColor=red>*</font>">Disability<font color="red">*</font></label>
+					<select name="[disability_code]" >
+						<option >Please Select</option>
+						<option >None</option>
+						<option >Physically Challenged</option>
+						<option >Visually Impaired</option>
+						<option >Hearing Impaired</option>
+						<option >Albinism</option>
+					</select><br>
+				<div class="input textarea required"><br>
+					<label for="Address">Address<br>
+						<font color="red">*</font></label>
+					<textarea  cols="59" rows="2"></textarea>
+				</div><br><br>
+
+				<div>
+					<h3><font color="green">GPS Coordinates</h3></font>
+					<label for="Latitude">Latitude</label>
+					<span class="input text required">
+						<label for="Latitude"><font color="red">*</font></label>
+						<input name="[Latitude]" size="10" maxlength="255" type="text" >
+					</span>
+
+					<label for="Longitude">Longitude</label>
+					<span class="input text required">
+						<label for="Longitude"><font color="red">*</font></label>
+						<input name="[Longitude]" size="10" maxlength="255" type="text" >
+					</span>
+				</div>
+
+
+				<div class="input text"><br>
+					<label for="City"><font color="black">City</font></label><br>
+					<label for="City"><font color="whitesmoke">*</font> </label>
+					<input name="city" size="60" type="text" >
+				</div><br>
+				<div class="input text required">
+					<label for="NextOfKin">Next Of Kin</label><br>
+					<label for="NextOfKin"><font color="red">*</font> </label>
+					<input name="next_of_kin" size="60" type="text" >
+				</div><br><label for="NextOfKin'sPhoneNumber:">Next Of Kin's Phone Number:</label>
+				<div class="input text required"><br>
+					<label for="HomePhone"><font color="red">*</font></label>
+					<input name="[home_phone]" size="60" maxlength="20" type="text" >
+				</div><br>
+				<label for="Applicant'sMobileNumber:">Applicant's Mobile Number:</label>
+				<div class="input text required"><br><label for="Mobile"><font color="red">*</font></label>
+					<input name="[mobile]" size="60" maxlength="20" type="text">
+				</div><br>
+				<label for="EmailAddress">Email Address</label>
+				<div class="input text required"><br>
+					<label for="EmailAddress"><font color="red">*</font></label>
+					<input name="data[ApplicantsDetail][email_address]" size="60" maxlength="255" type="text" >
+				</div><br>
+
+				<label for="BirthDate">Specify Sponsor</label><b>
+				<div class="input text"><br>
+	    			<label for="Sponsor"></label>
+	    			<label for="Sponsor"><font color="red">*</font></label>
+	   				<input name="sponsoer" size="60" maxlength="255" type="text" >
+				</div></b><br>
+				<input type="submit" name="submit" value="Next >>">
+			</div>
+		</fieldset><br><br>
+
+		
+
+		
+		
+	</form>
+</body>
+</html>
